@@ -7,22 +7,25 @@ module.exports = {
   organizationName: 'aimbly', // Usually your GitHub org/user name.
   projectName: 'ada-design-doc', // Usually your repo name.
   themeConfig: {
-    colorMode: {
-      defaultMode: 'light',
-      disableSwitch: true,
-      respectPrefersColorScheme: false,
-    },
+    defaultDarkMode: false,
+
     navbar: {
-      title: 'ADA Design',
+      title: '',
       logo: {
         alt: 'ADA Design Logo',
-        src: 'img/logo.svg',
+        src: 'img/logo.png',
       },
       links: [
         {
           to: 'docs/getting-started',
           activeBasePath: 'docs',
           label: 'Docs',
+          position: 'left',
+        },
+        {
+          to: 'docs/components/a11y-context-provider',
+          activeBasePath: 'docs',
+          label: 'API Reference',
           position: 'left',
         },
         { to: 'blog', label: 'Blog', position: 'left' },
@@ -33,6 +36,15 @@ module.exports = {
         },
       ],
     },
+    colorMode: {
+      // Nothing against dark mode, but our current CSS doesn't have high contrast
+      // so it needs some work before being enabled.
+      defaultMode: 'light',
+
+      // Hides the switch in the navbar
+      // Useful if you want to support a single color mode
+      disableSwitch: false,
+    },
     footer: {
       style: 'dark',
       links: [
@@ -40,49 +52,38 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Style Guide',
-              to: 'docs/doc1',
+              to: 'docs/getting-started',
+              activeBasePath: 'docs',
+              label: 'Docs',
+              position: 'left',
             },
             {
-              label: 'Second Doc',
-              to: 'docs/doc2',
+              to: 'docs/components/a11y-context-provider',
+              activeBasePath: 'docs',
+              label: 'API Reference',
+              position: 'left',
             },
           ],
         },
         {
           title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
-          ],
+          items: [{ to: 'blog', label: 'Blog', position: 'left' }],
         },
         {
           title: 'More',
           items: [
             {
-              label: 'Blog',
-              to: 'blog',
-            },
-            {
+              href: 'https://github.com/aimbly/ada-design',
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              position: 'right',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Aimbly.`,
     },
   },
+  stylesheets: ['https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap'],
   presets: [
     [
       '@docusaurus/preset-classic',

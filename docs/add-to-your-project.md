@@ -18,13 +18,10 @@ npm install --save ada-design
 `ada-design` implements at the top of [Styled Components](https://styled-components.com/), so we highly recommend using it -- even though is not mandatory.
 :::
 
-````
-
 Assuming that you are using a [Create React App](https://reactjs.org/docs/create-a-new-react-app.html) application, you can have a working example doing something like this:
 
 ```jsx
 import React from 'react';
-import ReactDOM from 'react-dom';
 import { Button, A11yContextProvider } from 'ada-design';
 
 const App = () => {
@@ -34,6 +31,6 @@ const App = () => {
     </A11yContextProvider>
   );
 };
-````
+```
 
 Where the `A11yContextProvider` should be wrapper all the components that might be analysed (_we recommend to wrap all the application with it_) and we need to provide the `isEnabled` property in order to indicate if the accessibility analysis should be done or not (_we recommend to enable it only for development environment_);
