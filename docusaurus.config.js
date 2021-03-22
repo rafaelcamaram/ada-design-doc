@@ -1,6 +1,6 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
+  title: 'ADA Design',
+  tagline: 'React UI Component Library focused on accessibility',
   url: 'https://aimbly.github.io',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
@@ -8,9 +8,9 @@ module.exports = {
   projectName: 'ada-design-doc', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'ADA Design',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'ADA Design Logo',
         src: 'img/logo.svg',
       },
       links: [
