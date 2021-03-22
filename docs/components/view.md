@@ -8,7 +8,7 @@ sidebar_label: View
 
 You can consider the `View` component as a wildcard, since it is the base component for all other components of **ADA Design**; therefore, you will be able to take advantage of all your `props` in other components.
 
-It is worth remembering that the `View` component originally does not have any visual effects, it's usually used to wrap other components and arrange them; however, it can be used/customized in several ways to achieve the desired look. We can consider that it acts in a similar way to a `div` that can be mutated to be rendered like any other element (` p`, `div`,`h1`, etc...)
+It is worth remembering that the `View` component originally does not have any visual effects, it's usually used to wrap other components and arrange them; however, it can be used/customized (using `props` or `styled-components`) in several ways to achieve the desired look. We can consider that it acts in a similar way to a `div` that can be mutated to be rendered like any other element (` p`, `div`,`h1`, etc...)
 
 Example usage:
 
