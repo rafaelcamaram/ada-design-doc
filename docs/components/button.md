@@ -11,7 +11,6 @@ Rendering a `<Button>` will allow you create buttons in the screen.
 #### Preview:
 
 import { Button } from 'ada-design';
-import styled from 'styled-components';
 
 <Button variant="default" onClick={() => {}}>
 ADA Design Button 🌮 with default style
@@ -86,7 +85,7 @@ const StyledButton = styled(Button)`
 `;
 ```
 
-> `ada-design` implements at the top of [Styled Components](https://styled-components.com/), so we highly recommend using it -- even though is not mandatory.
+> `ada-design` is implemented at the top of [Styled Components](https://styled-components.com/), so we highly recommend using it -- even though is not mandatory.
 
 #### Button Props
 

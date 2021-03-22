@@ -4,8 +4,8 @@ module.exports = {
   url: 'https://aimbly.github.io',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'aimbly', // Usually your GitHub org/user name.
-  projectName: 'ada-design-doc', // Usually your repo name.
+  organizationName: 'aimbly',
+  projectName: 'ada-design-doc',
   themeConfig: {
     defaultDarkMode: false,
     navbar: {

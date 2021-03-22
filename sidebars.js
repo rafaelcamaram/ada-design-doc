@@ -4,10 +4,12 @@ module.exports = {
     ['API Reference']: [
       'components/a11y-context-provider',
       'components/view',
+      'components/badge',
+      'components/badge-list',
       'components/button',
       'components/divisor',
       'components/modal',
     ],
-    ['Type Reference']: ['components/types/button-variant-type'],
+    ['Type Reference']: ['components/types/button-variant-type', 'components/types/font-weight-value'],
   },
 };
