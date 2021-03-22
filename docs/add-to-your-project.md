@@ -6,7 +6,7 @@ sidebar_label: Add to your project
 
 ## Install & Use
 
-[**ADA Design**](https://rafaelcamaram.github.io/ada-design-doc/) provides you several components and features that you can import and use in your project -- you don't need to use all of them, only the ones that you feel necessary. To start using it, you only need to follow the following:
+[**ADA Design**](https://adadesign.io/) provides you several components and features that you can import and use in your project -- you don't need to use all of them, only the ones that you feel necessary. To start using it, you only need to follow the following:
 
 ```sh
 yarn add ada-design

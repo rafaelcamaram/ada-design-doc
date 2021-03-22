@@ -13,7 +13,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 export default function Index() {
   return (
-    <Layout title="Extensible mobile app debugger">
+    <Layout title="UI-Kit for ADA development">
       <div>
         <div className="splash">
           <div className="content">

@@ -8,19 +8,20 @@
  */
 
 :root {
-  --primary: #8e2de2;
   --primary-darker: #4a00e0;
   --primary-light: #bf8fff;
   --secondary: #0066af;
   --primary-purple: #121020;
-  --ifm-link-color: var(--primary);
-  --ifm-navbar-background-color: var(--primary);
+  --ifm-color-primary: #8e2de2;
+  --ifm-link-color: var(--ifm-color-primary);
+  --ifm-navbar-background-color: var(--ifm-color-primary);
   --ifm-navbar-link-color: #ebedf0;
   --ifm-navbar-shadow: none;
   --ifm-navbar-link-hover-color: var(--ifm-navbar-link-color);
-  --ifm-footer-link-color: #ebedf0;
+  --ifm-footer-link-color: var(--ifm-navbar-link-color);
   --ifm-footer-link-hover-color: var(--ifm-footer-link-color);
-  --ifm-menu-color-active: var(--primary);
+  --ifm-menu-color-active: var(--ifm-color-primary);
+  --ifm-pagination-nav-color-hover: var(--ifm-color-primary);
 }
 
 html[data-theme='dark'] {
@@ -53,12 +54,16 @@ h6 {
 
 .splash {
   min-height: 700px;
-  background: var(--primary); /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, var(--primary-darker), var(--primary)); /* Chrome 10-25, Safari 5.1-6 */
+  background: var(--ifm-color-primary); /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    var(--primary-darker),
+    var(--ifm-color-primary)
+  ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to top,
     var(--primary-darker),
-    var(--primary)
+    var(--ifm-color-primary)
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   text-align: center;

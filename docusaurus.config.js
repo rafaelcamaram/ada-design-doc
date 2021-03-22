@@ -8,7 +8,6 @@ module.exports = {
   projectName: 'ada-design-doc', // Usually your repo name.
   themeConfig: {
     defaultDarkMode: false,
-
     navbar: {
       title: '',
       logo: {
@@ -30,7 +29,7 @@ module.exports = {
         },
         { to: 'blog', label: 'Blog', position: 'left' },
         {
-          href: 'https://github.com/aimbly/ada-design-doc',
+          href: 'https://github.com/aimbly/ada-design',
           label: 'GitHub',
           position: 'right',
         },
