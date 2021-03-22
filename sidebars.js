@@ -8,8 +8,6 @@ module.exports = {
       'components/divisor',
       'components/modal',
     ],
-    'Type Reference': ['components/types/button-variant-type'],
-    Docusaurus: ['doc1', 'doc2', 'doc3'],
-    Features: ['mdx'],
+    ['Type Reference']: ['components/types/button-variant-type'],
   },
 };

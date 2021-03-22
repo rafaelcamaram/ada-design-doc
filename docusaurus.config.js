@@ -7,6 +7,11 @@ module.exports = {
   organizationName: 'aimbly', // Usually your GitHub org/user name.
   projectName: 'ada-design-doc', // Usually your repo name.
   themeConfig: {
+    colorMode: {
+      defaultMode: 'light',
+      disableSwitch: true,
+      respectPrefersColorScheme: false,
+    },
     navbar: {
       title: 'ADA Design',
       logo: {
@@ -15,7 +20,7 @@ module.exports = {
       },
       links: [
         {
-          to: 'docs/doc1',
+          to: 'docs/getting-started',
           activeBasePath: 'docs',
           label: 'Docs',
           position: 'left',
