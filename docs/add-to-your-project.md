@@ -33,7 +33,7 @@ const App = () => {
 };
 ```
 
-Where the `A11yContextProvider` should be the wrapper of all the components that might be analysed (_we recommend to wrap all the application with it_) and we need to provide the `isEnabled` property in order to indicate if the accessibility analysis should be done or not (_we recommend to enable it only for development environment_);
+Where the [`A11yContextProvider`](components/a11y-context-provider) should be the wrapper of all the components that might be analysed (_we recommend to wrap all the application with it_) and we need to provide the `isEnabled` property in order to indicate if the accessibility analysis should be done or not (_we recommend to enable it only for development environment_);
 
 ## Getting started with an example project
 
