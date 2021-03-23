@@ -11,7 +11,16 @@ module.exports = {
       'components/divisor',
       'components/modal',
       'components/toggle-section',
+      'components/form',
+      'components/text-input',
+      'components/heading',
+      'components/link',
+      'components/text',
     ],
-    ['Type Reference']: ['components/types/button-variant-type', 'components/types/font-weight-value'],
+    ['Type Reference']: [
+      'components/types/button-variant-type',
+      'components/types/font-weight-value',
+      'components/types/form-schema',
+    ],
   },
 };
