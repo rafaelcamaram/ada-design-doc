@@ -17,7 +17,9 @@ export default function Index() {
       <div>
         <div className="splash">
           <div className="content">
-            <h1>UI-Kit for ADA development</h1>
+            <h1>
+              UI-Kit for ADA development <span className="wip-tag">PRE-ALPHA</span>
+            </h1>
             <h2>
               ADA Design is a React UI kit for building incredible products on the web, providing an immersive
               experience for developers that aims to develop a fully accessible application.

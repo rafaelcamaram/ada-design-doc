@@ -429,6 +429,9 @@ footer iframe {
 }
 
 @media screen and (max-width: 736px) {
+  .wip-tag {
+    display: block;
+  }
   .docsNavContainer,
   .docsSliderActive nav.toc .navBreadcrumb {
     margin-top: 0;
@@ -481,6 +484,12 @@ footer iframe {
   .landing-btn {
     margin-bottom: 10px !important;
   }
+}
+
+.wip-tag {
+  color: rgb(220, 133, 20);
+  font-size: 28px;
+  font-weight: 900;
 }
 
 @media screen and (max-width: 680px) {
