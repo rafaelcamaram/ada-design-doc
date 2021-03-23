@@ -4,6 +4,10 @@ title: Getting Started with ADA Design
 sidebar_label: Getting Started
 ---
 
+:::caution
+[**ADA Design**](https://adadesign.io/) is in early development, and some things may change before we hit production version. This project is a work-in-progress.
+:::
+
 ## Introduction
 
 [**ADA Design**](https://adadesign.io/) is a React UI kit for building incredible products for awesome communities on the web, providing an immersive experience for developers that aims to develop a fully accessible application.
