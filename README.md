@@ -1,4 +1,4 @@
-# UI-KIT FOR ADA DEVELOPMENT - PRE-ALPHA
+# ADA Design - Doc | PRE-ALPHA
 
 [**ADA Design**](https://adadesign.io/) is a React UI kit for building incredible products on the web, providing an immersive experience for developers that aims to develop a fully accessible application.
 
