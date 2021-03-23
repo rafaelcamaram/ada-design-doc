@@ -1,6 +1,7 @@
 module.exports = {
   someSidebar: {
     Introduction: ['getting-started', 'add-to-your-project'],
+    Advanced: ['advanced/analyze-your-own-components'],
     ['API Reference']: [
       'components/a11y-context-provider',
       'components/view',
