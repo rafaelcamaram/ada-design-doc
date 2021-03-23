@@ -12,10 +12,6 @@ Thinking about it, you can style the [**ADA Design**](https://adadesign.io) comp
 
 As you might be noticed reading the other doc pages, we built our components on the top of [`View`](components/view) component. So, you can use all its `props` in order to customize it.
 
-:::caution
-It's important to notice that's not possible to overwrite properties neither from `variant` or `intention` here; for this, you might be looking for the two below approaches
-::::
-
 #### Example:
 
 ```jsx
@@ -27,9 +23,9 @@ import { Button } from 'ada-design';
   variant="primary"
   intention="default"
   onClick={() => {}}
-  marginY={10}
-  textTransform="capitalize"
-  backgroundColor="red"
+  margin={10}
+  width="100%"
+  background="red"
 >
   Button with Class Name
 </Button>;
@@ -37,11 +33,11 @@ import { Button } from 'ada-design';
 
 ### Using `classNames`
 
-If you're using regular `css` files or using some pre-processors like `scss`, it'd fit perfectly for you. You can use the `className` property in order to append one or more class names to our components and use it to customize it.
+If you're using regular `css` files or using some pre-processors like `scss`, this approach will fit perfectly for you. You can use the `className` property in order to append one or more class names to our components and use it to customize it.
 
 #### Example:
 
-```jsx {2}
+```jsx
 // Javascript file
 import { Button } from 'ada-design';
 
@@ -55,7 +51,7 @@ import { Button } from 'ada-design';
 .my-awesome-button {
   width: 100%;
   margin: 10px;
-  background-color: red;
+  background: red;
 }
 ```
 
@@ -67,11 +63,13 @@ As we already mentioned before, the [**ADA Design**](https://adadesign.io) compo
 import { styled } from 'styled-components';
 import { Button } from 'ada-design';
 
-<StyledButton className="my-awesome-button" size={32} variant="primary" intention="default" onClick={() => {}}>
+<StyledButton size={32} variant="primary" intention="default" onClick={() => {}}>
   Button with Class Name
 </StyledButton>;
 
 const StyledButton = styled(Button)`
-  background: blue;
+  width: 100%;
+  margin: 10px;
+  background: red;
 `;
 ```
