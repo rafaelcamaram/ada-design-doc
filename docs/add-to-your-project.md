@@ -4,11 +4,11 @@ title: Add to your project
 sidebar_label: Add to your project
 ---
 
-## Install & Use
+## Install to your existing project
 
 [**ADA Design**](https://adadesign.io/) provides you several components and features that you can import and use in your project -- you don't need to use all of them, only the ones that you feel necessary. To start using it, you only need to follow the following:
 
-```sh
+```bash
 yarn add ada-design
 # or
 npm install --save ada-design
@@ -33,4 +33,26 @@ const App = () => {
 };
 ```
 
-Where the `A11yContextProvider` should be wrapper all the components that might be analysed (_we recommend to wrap all the application with it_) and we need to provide the `isEnabled` property in order to indicate if the accessibility analysis should be done or not (_we recommend to enable it only for development environment_);
+Where the `A11yContextProvider` should be the wrapper of all the components that might be analysed (_we recommend to wrap all the application with it_) and we need to provide the `isEnabled` property in order to indicate if the accessibility analysis should be done or not (_we recommend to enable it only for development environment_);
+
+## Getting started with an example project
+
+If you don't have an existing project yet, you can use our example project repository in order to bootstrap your application.
+
+```bash
+git clone https://github.com/aimbly/ada-design-example.git
+# or
+git clone git@github.com:aimbly/ada-design-example.git
+```
+
+```bash
+# install dependencies
+yarn install
+
+# run the project
+yarn start
+```
+
+## Problems?
+
+Ask for help on our [GitHub repository](https://github.com/aimbly/ada-design).
