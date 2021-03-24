@@ -37,6 +37,10 @@ const SomeComponent = () => {
 };
 ```
 
+### `<Flex />` with custom design
+
+You can use our standard designs or customize it to be in the way you want. In order to customize it, please take a look at [Customize components styling](../advanced/customize-component-styling)
+
 #### Flex Props
 
 :::tip

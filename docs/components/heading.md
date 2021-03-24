@@ -45,6 +45,10 @@ const SomeComponent = () => {
 };
 ```
 
+### `<Heading />` with custom design
+
+You can use our standard designs or customize it to be in the way you want. In order to customize it, please take a look at [Customize components styling](../advanced/customize-component-styling)
+
 #### Heading Props
 
 | Props  | Optional | Type                           | Description |
@@ -53,4 +57,8 @@ const SomeComponent = () => {
 
 :::note
 It's important to notice that every **ADA Design** component allows you to use any _props_ from the [`View`](view) component.
+:::
+
+:::note
+Since [**ADA Design**](https://adadesign.io/) is built in the top of `styled-components`, you can use the `as` prop in order to render the `Text` component as the HTML component you want (`p`, `span`, `h1`, `h2`, etc...)
 :::
