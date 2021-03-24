@@ -4,6 +4,10 @@ title: A11yContextProvider
 sidebar_label: A11yContextProvider
 ---
 
+:::caution
+[**ADA Design**](https://adadesign.io/) is in early development, and some things may change before we hit production version. This project is a work-in-progress.
+:::
+
 ### `<A11yContextProvider/>`
 
 Rendering a `<A11yContextProvider>` will allow you to take advantage of the **ADA analysis** we developed. The `A11yContextProvider` should be the wrapper for all the components that might be analyzed (_we recommend wrapping all the application with it_).

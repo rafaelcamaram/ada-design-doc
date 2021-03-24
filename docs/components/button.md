@@ -256,12 +256,14 @@ You can use our standard designs or customize it to be in the way you want. In o
 
 #### Button Props
 
-| Props         | Optional | Type                                             | Description                                   |
-| ------------- | -------- | ------------------------------------------------ | --------------------------------------------- |
-| `isFullWidth` | Yes      | `boolean`                                        | Should take `100%` of the parent's width?     |
-| `onClick`     | Yes      | `Function`                                       | `Function` executed whe the user clicks       |
-| `type`        | Yes      | `string`                                         | Button type                                   |
-| `variant`     | Yes      | [`ButtonVariantType`](types/button-variant-type) | Button style. Example: `variant` or `default` |
+| Props               | Optional | Type                                             | Description                                                                  |
+| ------------------- | -------- | ------------------------------------------------ | ---------------------------------------------------------------------------- |
+| `shouldDisableA11y` | Yes      | `boolean`                                        | If `true` it disabled the accessibility analysis for this component instance |
+| `isFullWidth`       | Yes      | `boolean`                                        | Should take `100%` of the parent's width?                                    |
+| `isFullWidth`       | Yes      | `boolean`                                        | Should take `100%` of the parent's width?                                    |
+| `onClick`           | Yes      | `Function`                                       | `Function` executed whe the user clicks                                      |
+| `type`              | Yes      | `string`                                         | Button type                                                                  |
+| `variant`           | Yes      | [`ButtonVariantType`](types/button-variant-type) | Button style. Example: `variant` or `default`                                |
 
 :::note
 It's important to notice that every **ADA Design** component allows you to use any _props_ from the [`View`](view) component.
