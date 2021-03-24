@@ -71,7 +71,7 @@ const SomeComponent = () => {
 
 #### ModalStyle type
 
-As you can see in the previous table, you can customize the `Modal` content/container using the `customModalStyle` prop. It's basically a JavaScript object that contains two properties that can receive [`ViewElementProps`](view.html) properties:
+As you can see in the previous table, you can customize the `Modal` content/container using the `customModalStyle` prop. It's basically a JavaScript object that contains two properties that can receive [`ViewElementProps`](view) properties:
 
 - `container`: Responsible to style the overlay layer (the one behind the content);
 - `content`: Responsible to style the content area;
@@ -103,5 +103,5 @@ It's important to notice that if you're trying to use the `customModalStyle`, yo
 :::
 
 :::note
-The `Modal` component is one of the exceptions that doesn't allow [`View`](view.html) props by default. You need to use the `customModalStyle` prop to style it
+The `Modal` component is one of the exceptions that doesn't allow [`View`](view) props by default. You need to use the `customModalStyle` prop to style it
 :::

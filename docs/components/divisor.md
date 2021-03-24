@@ -47,5 +47,5 @@ const SomeComponent = () => {
 | `height` | Yes      | `number` | Number of `px`s used as height of Divisor |
 
 :::note
-It's important to notice that every **ADA Design** component allows you to use any _props_ from the [`View`](view.html) component.
+It's important to notice that every **ADA Design** component allows you to use any _props_ from the [`View`](view) component.
 :::

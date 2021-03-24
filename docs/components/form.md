@@ -60,5 +60,5 @@ In order to provide you a better experience, we're using the third-party `yup` l
 | `validationSchema` | Yes      | `Yup.AnySchema`                   | `yup` validation schema that represents the form fields       |
 
 :::note
-The `Form` component is one of the exceptions that doesn't allow [`View`](view.html) props by default. In the future, it'll allow you to receive `children` and render your own fields
+The `Form` component is one of the exceptions that doesn't allow [`View`](view) props by default. In the future, it'll allow you to receive `children` and render your own fields
 :::

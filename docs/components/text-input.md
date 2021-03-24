@@ -55,5 +55,5 @@ const SomeComponent = () => {
 | `onChange`                | No       | `(e) => void` | Function that will be called when the input's value change   |
 
 :::note
-The `TextInput` component is one of the exceptions that doesn't allow [`View`](view.html) props by default. You can wrap it using [`View`](view.html) or [`Flex`](flex.html) in order to arrange it or use `styled-components` to style it.
+The `TextInput` component is one of the exceptions that doesn't allow [`View`](view) props by default. You can wrap it using [`View`](view) or [`Flex`](flex) in order to arrange it or use `styled-components` to style it.
 :::

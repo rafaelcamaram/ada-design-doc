@@ -41,5 +41,5 @@ const AnyOtherComponent = () => {
 | `headerComponent`  | Yes      | `(isCollapsed, isToggleDisabled) => React.ReactNode`                     | Function that will render the headercontent        |
 
 :::note
-The `ToggleSection` component is one of the exceptions that doesn't allow [`View`](view.html) props by default; but it's not necessary since you can provide your own `headerComponent` and `children`.
+The `ToggleSection` component is one of the exceptions that doesn't allow [`View`](view) props by default; but it's not necessary since you can provide your own `headerComponent` and `children`.
 :::

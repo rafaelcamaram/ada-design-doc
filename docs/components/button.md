@@ -256,13 +256,13 @@ You can use our standard designs or customize it to be in the way you want. In o
 
 #### Button Props
 
-| Props         | Optional | Type                                                  | Description                                   |
-| ------------- | -------- | ----------------------------------------------------- | --------------------------------------------- |
-| `isFullWidth` | Yes      | `boolean`                                             | Should take `100%` of the parent's width?     |
-| `onClick`     | Yes      | `Function`                                            | `Function` executed whe the user clicks       |
-| `type`        | Yes      | `string`                                              | Button type                                   |
-| `variant`     | Yes      | [`ButtonVariantType`](types/button-variant-type.html) | Button style. Example: `variant` or `default` |
+| Props         | Optional | Type                                             | Description                                   |
+| ------------- | -------- | ------------------------------------------------ | --------------------------------------------- |
+| `isFullWidth` | Yes      | `boolean`                                        | Should take `100%` of the parent's width?     |
+| `onClick`     | Yes      | `Function`                                       | `Function` executed whe the user clicks       |
+| `type`        | Yes      | `string`                                         | Button type                                   |
+| `variant`     | Yes      | [`ButtonVariantType`](types/button-variant-type) | Button style. Example: `variant` or `default` |
 
 :::note
-It's important to notice that every **ADA Design** component allows you to use any _props_ from the [`View`](view.html) component.
+It's important to notice that every **ADA Design** component allows you to use any _props_ from the [`View`](view) component.
 :::

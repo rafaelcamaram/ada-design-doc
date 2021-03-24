@@ -49,5 +49,5 @@ const SomeComponent = () => {
 | `onClick` | Yes      | `string` | Function that should be executed by clicking on it |
 
 :::note
-It's important to notice that every **ADA Design** component allows you to use any _props_ from the [`View`](view.html) component.
+It's important to notice that every **ADA Design** component allows you to use any _props_ from the [`View`](view) component.
 :::

@@ -14,7 +14,7 @@ We are using the `Button` component in order to explain how to customize your co
 
 ### Using the ADA design system props
 
-As you might be noticed reading the other doc pages, we built our components on the top of [`View`](components/view) component. So, you can use all its `props` in order to customize it.
+As you might be noticed reading the other doc pages, we built our components on the top of [`View`](../components/view) component. So, you can use all its `props` in order to customize it.
 
 #### Example:
 

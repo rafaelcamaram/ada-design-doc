@@ -39,7 +39,7 @@ const SomeComponent = () => {
 #### Text Props
 
 :::note
-It's important to notice that every **ADA Design** component allows you to use any _props_ from the [`View`](view.html) component.
+It's important to notice that every **ADA Design** component allows you to use any _props_ from the [`View`](view) component.
 :::
 
 :::note

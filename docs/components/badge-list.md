@@ -28,5 +28,5 @@ export const AnyOtherComponent = () => {
 | `data` | Yes      | `string[]` | String array of texts that should be render as badges |
 
 :::note
-It's important to notice that every **ADA Design** component allows you to use any _props_ from the [`View`](view.html) component.
+It's important to notice that every **ADA Design** component allows you to use any _props_ from the [`View`](view) component.
 :::
