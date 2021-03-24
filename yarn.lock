@@ -2041,10 +2041,10 @@ acorn@^8.0.4:
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-8.1.0.tgz#52311fd7037ae119cbb134309e901aa46295b3fe"
   integrity sha512-LWCF/Wn0nfHOmJ9rzQApGnxnvgfROzGilS8936rqN/lfcYkY9MYZzdMqN+2NJ4SlTc+m5HiSa+kNfDtI64dwUA==
 
-ada-design@^0.1.28:
-  version "0.1.28"
-  resolved "https://registry.yarnpkg.com/ada-design/-/ada-design-0.1.28.tgz#0457fd147211a53e7841ce28f49283a639b881bb"
-  integrity sha512-+S2GH/Qd6uwKYeLOUcfGWhQNhZndqfC6FGdV1E5NdZ4VVScsrd5L3fOCu8V0vjU8qaARjoGqhVz4Q3OAD9XszA==
+ada-design@^0.1.29:
+  version "0.1.29"
+  resolved "https://registry.yarnpkg.com/ada-design/-/ada-design-0.1.29.tgz#ced5273d48685d205111703d5f25097a3e67b08f"
+  integrity sha512-HjqLd48rle7UXtttZR33aWk5UVlnMo500Cq099XoVpMQmn5bba2qY8WoJDEp9uI5F7jipgR0uOr5ntjzZddwIQ==
   dependencies:
     async-fifo-queue "1.1.0"
     axe-core "4.1.2"
@@ -3986,9 +3986,9 @@ ee-first@1.1.1:
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
 electron-to-chromium@^1.3.564, electron-to-chromium@^1.3.649:
-  version "1.3.698"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.698.tgz#5de813960f23581a268718a0058683dffa15d221"
-  integrity sha512-VEXDzYblnlT+g8Q3gedwzgKOso1evkeJzV8lih7lV8mL8eAnGVnKyC3KsFT6S+R5PQO4ffdr1PI16/ElibY/kQ==
+  version "1.3.699"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.699.tgz#854eea9db8bc8109c409a4807bfdb200dd75a2c7"
+  integrity sha512-fjt43CPXdPYwD9ybmKbNeLwZBmCVdLY2J5fGZub7/eMPuiqQznOGNXv/wurnpXIlE7ScHnvG9Zi+H4/i6uMKmw==
 
 elliptic@^6.5.3:
   version "6.5.4"
