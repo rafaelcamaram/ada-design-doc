@@ -8,6 +8,10 @@ By default, [**ADA Design**](https://adadesign.io) provides you an already aweso
 
 Thinking about it, you can style the [**ADA Design**](https://adadesign.io) components in three different ways:
 
+:::note
+We are using the `Button` component in order to explain how to customize your components, but the same thing applies to all the other [**ADA Design**](https://adadesign.io) components.
+:::
+
 ### Using the ADA design system props
 
 As you might be noticed reading the other doc pages, we built our components on the top of [`View`](components/view) component. So, you can use all its `props` in order to customize it.
@@ -27,7 +31,7 @@ import { Button } from 'ada-design';
   width="100%"
   background="red"
 >
-  Button with Class Name
+  Button with props
 </Button>;
 ```
 
@@ -42,7 +46,7 @@ If you're using regular `css` files or using some pre-processors like `scss`, th
 import { Button } from 'ada-design';
 
 <Button className="my-awesome-button" size={32} variant="primary" intention="default" onClick={() => {}}>
-  Button with Class Name
+  Button with class names
 </Button>;
 ```
 
@@ -64,7 +68,7 @@ import { styled } from 'styled-components';
 import { Button } from 'ada-design';
 
 <StyledButton size={32} variant="primary" intention="default" onClick={() => {}}>
-  Button with Class Name
+  Button with styled-components
 </StyledButton>;
 
 const StyledButton = styled(Button)`

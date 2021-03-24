@@ -7,14 +7,13 @@ module.exports = {
   organizationName: 'aimbly',
   projectName: 'ada-design-doc',
   themeConfig: {
-    defaultDarkMode: false,
     navbar: {
       title: '',
       logo: {
         alt: 'ADA Design Logo',
         src: 'img/logo.png',
       },
-      links: [
+      items: [
         {
           to: 'docs/getting-started',
           activeBasePath: 'docs',
