@@ -52,6 +52,8 @@ const AppRoot = () => {
 
 #### A11yContextProvider Props
 
-| Props       | Optional | Type      | Description                           |
-| ----------- | -------- | --------- | ------------------------------------- |
-| `isEnabled` | Yes      | `boolean` | Enable/Disable accessibility analysis |
+| Props                  | Optional | Type      | Description                                                      |
+| ---------------------- | -------- | --------- | ---------------------------------------------------------------- |
+| `isEnabled`            | No       | `boolean` | Enable/Disable accessibility analysis                            |
+| `shouldShowSuccess`    | Yes      | `boolean` | (Default = true) Enable/Disable warnings for success analysis    |
+| `shouldShowIncomplete` | Yes      | `boolean` | (Default = true) Enable/Disable warnings for incomplete analysis |

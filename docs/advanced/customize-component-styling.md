@@ -12,6 +12,10 @@ Thinking about it, you can style the [**ADA Design**](https://adadesign.io) comp
 We are using the `Button` component in order to explain how to customize your components, but the same thing applies to all the other [**ADA Design**](https://adadesign.io) components.
 :::
 
+import ButtonListPreviewImage from '../../static/img/button-previews.png';
+
+<img src={ButtonListPreviewImage} alt="All the buttons with the design system positioned side by side" />
+
 ### Using the ADA design system props
 
 As you might be noticed reading the other doc pages, we built our components on the top of [`View`](../components/view) component. So, you can use all its `props` in order to customize it.

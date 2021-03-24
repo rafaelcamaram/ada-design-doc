@@ -12,11 +12,11 @@ Description to be done.
 
 import { Link } from "ada-design";
 
-<Link as="a" target="_blank" href="https://google.com/">
+<Link target="_blank" href="https://google.com/">
   Link with href
 </Link>
 
-<Link as="a" onClick={() => alert('Clicked')}>
+<Link onClick={() => alert('Clicked')}>
   Link with onClick
 </Link>
 
@@ -29,13 +29,11 @@ import { Link } from 'ada-design';
 const SomeComponent = () => {
   return (
     <>
-      <Link as="a" target="_blank" href="https://google.com/">
+      <Link target="_blank" href="https://google.com/">
         Link with href
       </Link>
 
-      <Link as="a" onClick={() => alert('Clicked')}>
-        Link with onClick
-      </Link>
+      <Link onClick={() => alert('Clicked')}>Link with onClick</Link>
     </>
   );
 };
