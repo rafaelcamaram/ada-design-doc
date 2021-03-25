@@ -4,6 +4,15 @@ title: Add to your project
 sidebar_label: Add to your project
 ---
 
+## Getting started with example projects
+
+We developed two sample projects for you using the [**ADA Design**](https://adadesign.io/) UI-Kit. So feel free to clone it and start working
+
+- [JavaScript Repository](https://github.com/aimbly/ada-design-example)
+- [TypeScript Repository](https://github.com/aimbly/ada-design-typescript-example)
+
+Or you can install it in your existing project following the below section.
+
 ## Install to your existing project
 
 [**ADA Design**](https://adadesign.io/) provides you several components and features that you can import and use in your project -- you don't need to use all of them, only the ones that you feel necessary. To start using it, you only need to follow the following:
