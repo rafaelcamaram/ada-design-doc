@@ -2041,10 +2041,10 @@ acorn@^8.0.4:
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-8.1.0.tgz#52311fd7037ae119cbb134309e901aa46295b3fe"
   integrity sha512-LWCF/Wn0nfHOmJ9rzQApGnxnvgfROzGilS8936rqN/lfcYkY9MYZzdMqN+2NJ4SlTc+m5HiSa+kNfDtI64dwUA==
 
-ada-design@^0.1.33:
-  version "0.1.33"
-  resolved "https://registry.yarnpkg.com/ada-design/-/ada-design-0.1.33.tgz#d780b1b33a9046c46ba81aafa39d4f2ef73e7bf1"
-  integrity sha512-0RnUI98jWf0uzFR36nlS8prynDPZ/2n9iTala0Haykz/1Cg+LrGXYwjhxnDxIWLAu0j3UNF5tNOcsUTbYcRkWg==
+ada-design@^0.1.34:
+  version "0.1.34"
+  resolved "https://registry.yarnpkg.com/ada-design/-/ada-design-0.1.34.tgz#22cd57cadf2bd025400cfc8bf614cbd3ac71b2d4"
+  integrity sha512-/dFaz9QOF8hhGyAelKQRgDSru/z2abgIW1phtvHc1r1yVIqrrd+sWhZ/qEJT4W37FUPQDXvrAsRhYWq6UnJsYg==
   dependencies:
     async-fifo-queue "1.1.0"
     axe-core "4.1.2"
