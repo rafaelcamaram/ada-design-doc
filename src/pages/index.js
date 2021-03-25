@@ -31,7 +31,7 @@ export default function Index() {
                 </a>
 
                 <a className="landing-btn primary" href={useBaseUrl('docs/components/a11y-context-provider')}>
-                  Browser Components
+                  Components API
                 </a>
               </div>
             </div>

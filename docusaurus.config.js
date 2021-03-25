@@ -23,10 +23,10 @@ module.exports = {
         {
           to: 'docs/components/a11y-context-provider',
           activeBasePath: 'docs',
-          label: 'API Reference',
+          label: 'Components API',
           position: 'left',
         },
-        { to: 'blog', label: 'Blog', position: 'left' },
+        // { to: 'blog', label: 'Blog', position: 'left' },
         {
           href: 'https://github.com/aimbly/ada-design',
           label: 'GitHub',
@@ -58,14 +58,16 @@ module.exports = {
             {
               to: 'docs/components/a11y-context-provider',
               activeBasePath: 'docs',
-              label: 'API Reference',
+              label: 'Components API',
               position: 'left',
             },
           ],
         },
         {
           title: 'Community',
-          items: [{ to: 'blog', label: 'Blog', position: 'left' }],
+          items: [
+            // { to: 'blog', label: 'Blog', position: 'left' }
+          ],
         },
         {
           title: 'More',

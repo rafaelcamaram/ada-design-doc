@@ -6,7 +6,7 @@ module.exports = {
       'advanced/customize-component-styling',
       'advanced/ignoring-ada-warnings',
     ],
-    ['API Reference']: [
+    ['Components Reference']: [
       'components/a11y-context-provider',
       'components/view',
       'components/flex',
