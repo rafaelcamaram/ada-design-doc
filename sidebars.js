@@ -6,8 +6,8 @@ module.exports = {
       'advanced/customize-component-styling',
       'advanced/ignoring-ada-warnings',
     ],
-    ['Components Reference']: [
-      'components/a11y-context-provider',
+    ['Components API']: [
+      'components/ada-design-provider',
       'components/view',
       'components/flex',
       'components/badge',
@@ -24,6 +24,7 @@ module.exports = {
     ],
     ['Type Reference']: [
       'components/types/theme-provider-props',
+      'components/types/default-theme',
       'components/types/accessibility-props',
       'components/types/badge-variants',
       'components/types/button-variant-type',

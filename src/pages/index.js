@@ -30,7 +30,7 @@ export default function Index() {
                   Get Started
                 </a>
 
-                <a className="landing-btn primary" href={useBaseUrl('docs/components/a11y-context-provider')}>
+                <a className="landing-btn primary" href={useBaseUrl('docs/components/ada-design-provider')}>
                   Components API
                 </a>
               </div>

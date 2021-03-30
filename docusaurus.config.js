@@ -21,7 +21,7 @@ module.exports = {
           position: 'left',
         },
         {
-          to: 'docs/components/a11y-context-provider',
+          to: 'docs/components/ada-design-provider',
           activeBasePath: 'docs',
           label: 'Components API',
           position: 'left',
@@ -56,7 +56,7 @@ module.exports = {
               position: 'left',
             },
             {
-              to: 'docs/components/a11y-context-provider',
+              to: 'docs/components/ada-design-provider',
               activeBasePath: 'docs',
               label: 'Components API',
               position: 'left',

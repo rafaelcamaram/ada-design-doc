@@ -31,18 +31,18 @@ Assuming that you are using a [Create React App](https://reactjs.org/docs/create
 
 ```jsx
 import React from 'react';
-import { Button, A11yContextProvider } from 'ada-design';
+import { Button, ADADesignProvider } from 'ada-design';
 
 const App = () => {
   return (
-    <A11yContextProvider isEnabled={true}>
+    <ADADesignProvider isEnabled={true}>
       <Button>I'm using the ADA Design Button 🌮</Button>
-    </A11yContextProvider>
+    </ADADesignProvider>
   );
 };
 ```
 
-Where the [`A11yContextProvider`](components/a11y-context-provider) should be the wrapper of all the components that might be analysed (_we recommend to wrap all the application with it_) and we need to provide the `isEnabled` property in order to indicate if the accessibility analysis should be done or not (_we recommend to enable it only for development environment_);
+Where the [`ADADesignProvider`](components/ada-design-provider) **MUST** be the wrapper of all the components that might be analysed or that might be using any [**ADA Design**](https://adadesign.io/) component (_we recommend to wrap all the application with it_) -- we need to provide the `isEnabled` property in order to indicate if the accessibility analysis should be done or not (_we recommend to enable it only for development environment_);
 
 ## Getting started with an example project
 
