@@ -26,7 +26,7 @@ onClick={() => alert("Badge with click handler")}
 
 <Badge text="10" variant="circle" color="#0D65C2" />
 
-<Badge text="100" variant="circle" color="#0FA530" />
+<Badge text="100" variant="circle" color="jewel" />
 
 <Badge text="1000" variant="circle" color="#FF4400" onClick={() => alert('Badge with click handler')} />
 
@@ -47,13 +47,17 @@ const AnyOtherComponent = () => {
 
       <Badge color="#0D65C2" text="Badge with click handler" onClick={() => alert('Badge with click handler')} />
 
+      {/* Using rgba/rgb values */}
       <Badge text="1" variant="circle" color="rgba(255, 68, 0, 0.5)" />
 
+      {/* Using HEX */}
       <Badge text="10" variant="circle" color="#0D65C2" />
 
-      <Badge text="100" variant="circle" color="#0FA530" />
+      {/* Notice that you can also use the theme colors defined by us */}
+      <Badge text="100" variant="circle" color="jewel" />
 
-      <Badge text="1000" variant="circle" color="#FF4400" onClick={() => alert('Badge with click handler')} />
+      {/* Same here */}
+      <Badge text="1000" variant="circle" color="alizarinCrimson" onClick={() => alert('Badge with click handler')} />
     </>
   );
 };
@@ -71,8 +75,8 @@ You can use our standard designs or customize it to be in the way you want. In o
 | `onClick`    | Yes      | `Function`                                 | `Function` executed whe the user clicks |
 | `text`       | Yes      | `string`                                   | Badge text content                      |
 | `border`     | Yes      | `string`                                   | Badge border                            |
-| `color`      | Yes      | `string`                                   | Badge background color                  |
-| `textColor`  | Yes      | `string`                                   | Badge text color                        |
+| `color`      | Yes      | [ColorType](types/color-type)              | Badge background color                  |
+| `textColor`  | Yes      | [ColorType](types/color-type)              | Badge text color                        |
 | `fontWeight` | Yes      | [FontWeightValue](types/font-weight-value) | Badge text font weight                  |
 
 :::note

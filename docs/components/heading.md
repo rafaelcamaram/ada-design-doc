@@ -21,6 +21,7 @@ import { Heading } from "ada-design";
 <Heading size={700}>Heading Content</Heading>
 <Heading size={800}>Heading Content</Heading>
 <Heading size={900}>Heading Content</Heading>
+<Heading size={900} color="jewel">Heading Content with theme color</Heading>
 
 #### Example usage:
 
@@ -40,6 +41,9 @@ const SomeComponent = () => {
       <Heading size={700}>Heading Content</Heading>
       <Heading size={800}>Heading Content</Heading>
       <Heading size={900}>Heading Content</Heading>
+      <Heading size={900} color="jewel">
+        Heading Content with theme color
+      </Heading>
     </>
   );
 };

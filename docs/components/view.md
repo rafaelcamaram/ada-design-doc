@@ -44,7 +44,7 @@ It's important to notice that all these props can be used with any component fro
 | Props                      | Optional | Type                                            | Description                                             |
 | -------------------------- | -------- | ----------------------------------------------- | ------------------------------------------------------- |
 | `className`                | Yes      | `string`                                        | Class names that will be appended to the class property |
-| `color`                    | Yes      | `string`                                        | Text color                                              |
+| `color`                    | Yes      | [ColorType](types/color-type)                   | Text color                                              |
 | `width`                    | Yes      | `UnitValue`                                     | Element width                                           |
 | `height`                   | Yes      | `UnitValue`                                     | Element height                                          |
 | `maxHeight`                | Yes      | `UnitValue`                                     | Element max height                                      |
@@ -57,7 +57,7 @@ It's important to notice that all these props can be used with any component fro
 | `background`               | Yes      | `string`                                        | TBD                                                     |
 | `mixBlendMode`             | Yes      | `BlendModeValue`                                | TBD                                                     |
 | `backgroundClip`           | Yes      | `"border-box", "padding-box", "content-box"`    | TBD                                                     |
-| `backgroundColor`          | Yes      | `string`                                        | TBD                                                     |
+| `backgroundColor`          | Yes      | [ColorType](types/color-type)                   | TBD                                                     |
 | `backgroundImage`          | Yes      | `string`                                        | TBD                                                     |
 | `backgroundOrigin`         | Yes      | `string`                                        | TBD                                                     |
 | `backgroundPosition`       | Yes      | `string`                                        | TBD                                                     |
@@ -92,7 +92,7 @@ It's important to notice that all these props can be used with any component fro
 | `boxShadow`                | Yes      | `any`                                           | TBD                                                     |
 | `boxSizing`                | Yes      | `any`                                           | TBD                                                     |
 | `clear`                    | Yes      | `any`                                           | TBD                                                     |
-| `color`                    | Yes      | `any`                                           | TBD                                                     |
+| `color`                    | Yes      | [ColorType](types/color-type)                   | TBD                                                     |
 | `cursor`                   | Yes      | `any`                                           | TBD                                                     |
 | `display`                  | Yes      | `any`                                           | TBD                                                     |
 | `flex`                     | Yes      | `any`                                           | TBD                                                     |

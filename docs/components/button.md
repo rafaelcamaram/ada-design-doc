@@ -10,12 +10,12 @@ Rendering a `<Button>` will allow you create buttons in the screen.
 
 #### Preview:
 
-import { Button, View, Heading } from 'ada-design';
+import { Button, Flex, Heading } from 'ada-design';
 
 <Heading size={500} textTransform="capitalize" marginBottom={8}>
   Default variant style (variant="default")
 </Heading>
-<View  marginRight={10} marginBottom={10}>
+<Flex marginRight={10} marginBottom={10} alignItems="flex-start">
   <Button
     variant="default"
     intention="default"
@@ -52,12 +52,12 @@ import { Button, View, Heading } from 'ada-design';
   >
     Danger Button
   </Button>
-</View>
+</Flex>
 
 <Heading size={500} textTransform="capitalize" marginBottom={8}>
   Primary variant style (variant="primary")
 </Heading>
-<View  marginRight={10} marginBottom={10}>
+<Flex  marginRight={10} marginBottom={10}>
   <Button
     variant="primary"
     intention="default"
@@ -94,12 +94,12 @@ import { Button, View, Heading } from 'ada-design';
   >
     Danger Button
   </Button>
-</View>
+</Flex>
 
 <Heading size={500} textTransform="capitalize" marginBottom={8}>
   Simple variant style (variant="simple")
 </Heading>
-<View marginRight={10} marginBottom={10}>
+<Flex marginRight={10} marginBottom={10} alignItems="flex-start">
   <Button
     variant="simple"
     intention="default"
@@ -136,19 +136,19 @@ import { Button, View, Heading } from 'ada-design';
   >
     Danger Button
   </Button>
-</View>
+</Flex>
 
 <Heading size={500} textTransform="capitalize" marginBottom={8}>
   Button Sizes
 </Heading>
-<View marginRight={10} marginBottom={10}>
+<Flex marginRight={10} marginBottom={10} alignItems="flex-start">
   <Button
     size={20}
     variant="primary"
     marginRight={10}
     onClick={() => {}}
   >
-    20 Size Button
+    20 Size
   </Button>
   <Button
     size={24}
@@ -156,7 +156,7 @@ import { Button, View, Heading } from 'ada-design';
     marginRight={10}
     onClick={() => {}}
   >
-    24 Size Button
+    24 Size
   </Button>
    <Button
     size={28}
@@ -164,7 +164,7 @@ import { Button, View, Heading } from 'ada-design';
     marginRight={10}
     onClick={() => {}}
   >
-    28 Size Button
+    28 Size
   </Button>
    <Button
     size={32}
@@ -172,7 +172,7 @@ import { Button, View, Heading } from 'ada-design';
     marginRight={10}
     onClick={() => {}}
   >
-    32 Size Button
+    32 Size
   </Button>
    <Button
     size={36}
@@ -180,7 +180,7 @@ import { Button, View, Heading } from 'ada-design';
     marginRight={10}
     onClick={() => {}}
   >
-    36 Size Button
+    36 Size
   </Button>
    <Button
     size={40}
@@ -188,7 +188,7 @@ import { Button, View, Heading } from 'ada-design';
     marginRight={10}
     onClick={() => {}}
   >
-    40 Size Button
+    40 Size
   </Button>
    <Button
     size={44}
@@ -196,7 +196,7 @@ import { Button, View, Heading } from 'ada-design';
     marginRight={10}
     onClick={() => {}}
   >
-    44 Size Button
+    44 Size
   </Button>
    <Button
     size={48}
@@ -204,7 +204,7 @@ import { Button, View, Heading } from 'ada-design';
     marginRight={10}
     onClick={() => {}}
   >
-    48 Size Button
+    48 Size
   </Button>
    <Button
     size={52}
@@ -212,7 +212,7 @@ import { Button, View, Heading } from 'ada-design';
     marginRight={10}
     onClick={() => {}}
   >
-    52 Size Button
+    52 Size
   </Button>
    <Button
     size={56}
@@ -220,9 +220,9 @@ import { Button, View, Heading } from 'ada-design';
     marginRight={10}
     onClick={() => {}}
   >
-    56 Size Button
+    56 Size
   </Button>
-</View>
+</Flex>
 
 #### Example usage:
 

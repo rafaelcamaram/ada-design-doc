@@ -18,6 +18,8 @@ import { Divisor } from 'ada-design';
 <Divisor color="red" />
 <p>Third Component</p>
 <Divisor color="blue" height={10} />
+<p>Fourth Component</p>
+<Divisor color="jewel" height={10} />
 
 #### Example usage:
 
@@ -34,6 +36,8 @@ const SomeComponent = () => {
       <Divisor color="red" />
       <p>Third Component</p>
       <Divisor color="blue" height={10} />
+      <p>Fourth Component - using theme color</p>
+      <Divisor color="jewel" height={10} />
     </>
   );
 };
@@ -45,10 +49,10 @@ You can use our standard designs or customize it to be in the way you want. In o
 
 #### Divisor Props
 
-| Props    | Optional | Type     | Description                               |
-| -------- | -------- | -------- | ----------------------------------------- |
-| `color`  | Yes      | `string` | Divisor color                             |
-| `height` | Yes      | `number` | Number of `px`s used as height of Divisor |
+| Props    | Optional | Type                          | Description                               |
+| -------- | -------- | ----------------------------- | ----------------------------------------- |
+| `color`  | Yes      | [ColorType](types/color-type) | Divisor color                             |
+| `height` | Yes      | `number`                      | Number of `px`s used as height of Divisor |
 
 :::note
 It's important to notice that every **ADA Design** component allows you to use any _props_ from the [`View`](view) component.

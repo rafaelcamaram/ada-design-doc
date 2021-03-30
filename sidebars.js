@@ -25,6 +25,8 @@ module.exports = {
     ['Type Reference']: [
       'components/types/theme-provider-props',
       'components/types/default-theme',
+      'components/types/color-type',
+      'components/types/unit-value',
       'components/types/accessibility-props',
       'components/types/badge-variants',
       'components/types/button-variant-type',

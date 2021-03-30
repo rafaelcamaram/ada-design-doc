@@ -6,6 +6,10 @@ sidebar_label: Form
 
 ### `<Form/>`
 
+:::info
+We are proving you this `Form` component as a straightforward way to build **simple** forms but it's not that flexible. In the future, we are going to provide you a better component to attend more use cases.
+:::
+
 In order to provide you a better and fast-forward way to handle forms, we created the `Form` component. It's basically a component that only requires you to provide the form schema and the validation schema, with that, it'll render all the form for you; without needing to worry about managing the state or anything else.
 
 #### Example usage:

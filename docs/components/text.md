@@ -12,9 +12,11 @@ Description to be done.
 
 import { Text } from "ada-design";
 
-<Text as="p" color="red">Paragraph Example</Text>
+<Text as="p" color="red">Paragraph</Text>
 
-<Text as="span"  color="blue">Span Example</Text>
+<Text as="span"  color="blue">Span</Text>
+
+<Text as="p"  color="jewel">Paragram with theme color</Text>
 
 #### Example usage:
 
@@ -30,6 +32,9 @@ const SomeComponent = () => {
       </Text>
       <Text as="span" color="blue">
         Span
+      </Text>
+      <Text as="span" color="jewel">
+        Span with theme color
       </Text>
     </>
   );
