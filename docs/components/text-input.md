@@ -47,7 +47,7 @@ You can use our standard designs or customize it to be in the way you want; usin
 
 ```jsx
 import React from 'react';
-import styled from 'yup';
+import styled from 'styled-components';
 import { TextInput } from 'ada-design';
 
 const SomeComponent = () => {
