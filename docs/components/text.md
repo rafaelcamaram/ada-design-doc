@@ -12,11 +12,18 @@ Description to be done.
 
 import { Text } from "ada-design";
 
-<Text as="p" color="red">Paragraph</Text>
-
-<Text as="span"  color="blue">Span</Text>
-
-<Text as="p"  color="jewel">Paragram with theme color</Text>
+<Text as="p" size={300}>
+  Text 300
+</Text>
+<Text as="p" size={400}>
+  Text 400 (Default)
+</Text>
+<Text as="p" size={500}>
+  Text 500
+</Text>
+<Text as="p" size={600} color="jewel">
+  Text 600
+</Text>
 
 #### Example usage:
 
@@ -27,14 +34,17 @@ import { Text } from 'ada-design';
 const SomeComponent = () => {
   return (
     <>
-      <Text as="p" color="red">
-        Paragraph
+      <Text as="p" size={300}>
+        Text 300
       </Text>
-      <Text as="span" color="blue">
-        Span
+      <Text as="p" size={400}>
+        Text 400 (Default)
       </Text>
-      <Text as="span" color="jewel">
-        Span with theme color
+      <Text as="p" size={500}>
+        Text 500
+      </Text>
+      <Text as="p" size={600} color="jewel">
+        Text 600
       </Text>
     </>
   );
@@ -46,6 +56,11 @@ const SomeComponent = () => {
 You can use our standard designs or customize it to be in the way you want. In order to customize it, please take a look at [Customize components styling](../advanced/customize-component-styling)
 
 #### Text Props
+
+| Props   | Optional | Type                          | Description |
+| ------- | -------- | ----------------------------- | ----------- |
+| `size`  | Yes      | `300 400 500 600`             | Text size   |
+| `color` | Yes      | [ColorType](types/color-type) | Text color  |
 
 :::note
 It's important to notice that every **ADA Design** component allows you to use any _props_ from the [`View`](view) component.

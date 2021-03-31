@@ -55,9 +55,10 @@ You can use our standard designs or customize it to be in the way you want. In o
 
 #### Heading Props
 
-| Props  | Optional | Type                           | Description |
-| ------ | -------- | ------------------------------ | ----------- |
-| `size` | No       | `100 ~ 900 (increment of 100)` | Font size   |
+| Props   | Optional | Type                           | Description |
+| ------- | -------- | ------------------------------ | ----------- |
+| `size`  | No       | `100 ~ 900 (increment of 100)` | Font size   |
+| `color` | Yes      | [ColorType](types/color-type)  | Text color  |
 
 :::note
 It's important to notice that every **ADA Design** component allows you to use any _props_ from the [`View`](view) component.

@@ -139,6 +139,94 @@ import { Button, Flex, Heading } from 'ada-design';
 </Flex>
 
 <Heading size={500} textTransform="capitalize" marginBottom={8}>
+  Button with icon
+</Heading>
+<Flex marginRight={10} marginBottom={10} alignItems="flex-start">
+  <Button
+    variant="simple"
+    intention="default"
+    marginRight={10}
+    onClick={() => {}}
+    textTransform="capitalize"
+    icon="FiCornerLeftDown"
+  >
+    Default Button
+  </Button>
+  <Button
+    variant="simple"
+    intention="success"
+    marginRight={10}
+    onClick={() => {}}
+    textTransform="capitalize"
+    icon="FiCornerLeftDown"
+  >
+    Success Button
+  </Button>
+  <Button
+    variant="simple"
+    intention="warning"
+    marginRight={10}
+    onClick={() => {}}
+    textTransform="capitalize"
+    icon="FiCornerLeftDown"
+  >
+    Warning Button
+  </Button>
+  <Button
+    variant="simple"
+    intention="danger"
+    marginRight={10}
+    onClick={() => {}}
+    textTransform="capitalize"
+    icon="FiCornerLeftDown"
+  >
+    Danger Button
+  </Button>
+</Flex>
+<Flex marginRight={10} marginBottom={10} alignItems="flex-start">
+  <Button
+    variant="primary"
+    intention="default"
+    marginRight={10}
+    onClick={() => {}}
+    textTransform="capitalize"
+    icon="FiCornerLeftDown"
+  >
+    Default Button
+  </Button>
+  <Button
+    variant="primary"
+    intention="success"
+    marginRight={10}
+    onClick={() => {}}
+    textTransform="capitalize"
+    icon="FiCornerLeftDown"
+  >
+    Success Button
+  </Button>
+  <Button
+    variant="primary"
+    intention="warning"
+    marginRight={10}
+    onClick={() => {}}
+    textTransform="capitalize"
+    icon="FiCornerLeftDown"
+  >
+    Warning Button
+  </Button>
+  <Button
+    variant="primary"
+    intention="danger"
+    marginRight={10}
+    onClick={() => {}}
+    textTransform="capitalize"
+    icon="FiCornerLeftDown"
+  >
+    Danger Button
+  </Button>
+</Flex>
+
+<Heading size={500} textTransform="capitalize" marginBottom={8}>
   Button Sizes
 </Heading>
 <Flex marginRight={10} marginBottom={10} alignItems="flex-start">
@@ -256,16 +344,22 @@ You can use our standard designs or customize it to be in the way you want. In o
 
 #### Button Props
 
-| Props                  | Optional | Type                                             | Description                                                                  |
-| ---------------------- | -------- | ------------------------------------------------ | ---------------------------------------------------------------------------- |
-| `shouldDisableA11y`    | Yes      | `boolean`                                        | If `true` it disabled the accessibility analysis for this component instance |
-| `shouldShowSuccess`    | Yes      | `boolean`                                        | Enable/Disable success warnings analysis for this component instance         |
-| `shouldShowIncomplete` | Yes      | `boolean`                                        | Enable/Disable incomplete warnings analysis for this component instance      |
-| `isFullWidth`          | Yes      | `boolean`                                        | Should take `100%` of the parent's width?                                    |
-| `isFullWidth`          | Yes      | `boolean`                                        | Should take `100%` of the parent's width?                                    |
-| `onClick`              | Yes      | `Function`                                       | `Function` executed whe the user clicks                                      |
-| `type`                 | Yes      | `string`                                         | Button type                                                                  |
-| `variant`              | Yes      | [`ButtonVariantType`](types/button-variant-type) | Button style. Example: `variant` or `default`                                |
+ariaLabel?: string;
+icon?: keyof typeof Icons;
+
+| Props                  | Optional | Type                                                 | Description                                                                          |
+| ---------------------- | -------- | ---------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| `shouldDisableA11y`    | Yes      | `boolean`                                            | If `true` it disabled the accessibility analysis for this component instance         |
+| `shouldShowSuccess`    | Yes      | `boolean`                                            | Enable/Disable success warnings analysis for this component instance                 |
+| `shouldShowIncomplete` | Yes      | `boolean`                                            | Enable/Disable incomplete warnings analysis for this component instance              |
+| `isFullWidth`          | Yes      | `boolean`                                            | Should take `100%` of the parent's width?                                            |
+| `onClick`              | Yes      | `Function`                                           | `Function` executed whe the user clicks                                              |
+| `type`                 | Yes      | `string`                                             | Button type                                                                          |
+| `variant`              | Yes      | [`ButtonVariantType`](types/button-variant-type)     | Button style. Example: `variant` or `default`                                        |
+| `intention`            | Yes      | [`ButtonIntentionType`](types/button-intention-type) | Button intention style. Example: `default`, `success`, `warning` or `danger`         |
+| `ariaLabel`            | Yes      | `string`                                             | Button aria label                                                                    |
+| `size`                 | Yes      | [`ButtonSizeType`](types/button-size-type)           | Button size variants                                                                 |
+| `icon`                 | Yes      | `keyof typeof Icons`                                 | [Icons List (only Feather)](https://react-icons.github.io/react-icons/icons?name=fi) |
 
 :::note
 It's important to notice that every **ADA Design** component allows you to use any _props_ from the [`View`](view) component.
