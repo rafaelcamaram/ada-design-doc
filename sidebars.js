@@ -19,6 +19,7 @@ module.exports = {
       'components/form',
       'components/text-input',
       'components/text-area',
+      'components/search-input',
       'components/heading',
       'components/link',
       'components/text',
