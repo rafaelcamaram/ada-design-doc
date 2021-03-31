@@ -18,6 +18,7 @@ module.exports = {
       'components/toggle-section',
       'components/form',
       'components/text-input',
+      'components/text-area',
       'components/heading',
       'components/link',
       'components/text',
