@@ -21,6 +21,7 @@ module.exports = {
       'components/heading',
       'components/link',
       'components/text',
+      'components/portal',
     ],
     ['Type Reference']: [
       'components/types/theme-provider-props',
