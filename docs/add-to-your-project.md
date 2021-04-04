@@ -44,24 +44,6 @@ const App = () => {
 
 Where the [`ADADesignProvider`](components/ada-design-provider) **MUST** be the wrapper of all the components that might be analysed or that might be using any [**ADA Design**](https://adadesign.io/) component (_we recommend to wrap all the application with it_) -- we need to provide the `isEnabled` property in order to indicate if the accessibility analysis should be done or not (_we recommend to enable it only for development environment_);
 
-## Getting started with an example project
-
-If you don't have an existing project yet, you can use our example project repository in order to bootstrap your application.
-
-```bash
-git clone https://github.com/aimbly/ada-design-example.git
-# or
-git clone git@github.com:aimbly/ada-design-example.git
-```
-
-```bash
-# install dependencies
-yarn install
-
-# run the project
-yarn start
-```
-
 ## Problems?
 
 Ask for help on our [GitHub repository](https://github.com/aimbly/ada-design).
