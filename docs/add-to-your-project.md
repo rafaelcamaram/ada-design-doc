@@ -36,7 +36,7 @@ import { Button, ADADesignProvider } from 'ada-design';
 const App = () => {
   return (
     <ADADesignProvider isEnabled={true}>
-      <Button>I'm using the ADA Design Button 🌮</Button>
+      <Button>I am using the ADA Design Button 🌮</Button>
     </ADADesignProvider>
   );
 };
