@@ -9,7 +9,7 @@
 ---
 
 <div align="center">
-  <a href="https://evergreen.segment.com/">
+  <a href="https://adadesign.io/">
     <img src="https://i.imgur.com/3z3QHag.png" alt="[**ADA Design**](https://adadesign.io/) image with a preview related to our UI-kit.">
 	<br>
   <br>
